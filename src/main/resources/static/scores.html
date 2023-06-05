@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Datos del carro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+        </script>
+        <script type="text/javascript" src="scores.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <h2>Gamas</h2>
+        <div id="resultado"></div>
+        <button type="button" class="btn btn-primary saveButtonJL" onclick="traerInformacion()">Consultar</button>
+        <br>
+        <div class="container p-2">
+            <div class="myForm">
+                <label for="messageText" class="form-label">Mensaje</label> 
+                <input type="text" id="messageText">
+                <label for="starts" class="form-label">Estrellas</label>
+                <input type="number" id="starts">
+            </div>
+        </div>
+        <br>
+        <button type="button" class="btn btn-primary saveButtonJL" onclick="guardarInformacion()"> Guardar </button>
+        <button type="button" class="btn btn-primary saveButtonJL" onclick="location.href='index.html'">Volver</button>
+</body>
+</body>
+</html>
